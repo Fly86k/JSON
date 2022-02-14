@@ -24,12 +24,12 @@ JSON
   >>**"Future salary": 120000,**  
   >>**}**
  11. Отправить изменения на внешний репозиторий.  
- >**$ git add new.json  
- >**$ git status  
- >**$ git commit -m "Edit new.json"  
- >**$ git push
+ >**$ git add new.json**  
+ >**$ git status**  
+ >**$ git commit -m "Edit new.json"**  
+ >**$ git push**
  12. Создать файл preferences.json
- >**$ touch preferences.json
+ >**$ touch preferences.json**
  13. В файл preferences.json добавить информацию о своих предпочтениях 
  (Любимый фильм, любимый сериал, любимая еда, любимое время года, 
  сторона которую хотели бы посетить) в формате JSON.  
@@ -54,12 +54,12 @@ JSON
  >**$ git commit -m "2 new files, preferences.json and skillls.json"**  
  >**$ git push**
  16. На веб интерфейсе создать файл bug_report.json.  
- >**В мастер ветке нажимаем *Add file->Create new file*, даём имя и расшиерение файлу *bug_report.json* **  
+ >**В мастер ветке нажимаем** *Add file->Create new file* **, даём имя и расшиерение файлу** *bug_report.json*  
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
- >**Скроллим вниз нажимаем *Commit changes* **
+ >**Скроллим вниз нажимаем** *Commit changes* 
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.  
  >**Кликаем на файл bug_report.json, затем на карандаш и добавляем изменения в файл**
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
- >**Скроллим вниз нажимаем *Commit changes* **
+ >**Скроллим вниз нажимаем** *Commit changes* 
  20. Синхронизировать внешний и локальный репозиторий JSON  
- >**$ git pull
+ >**$ git pull**
