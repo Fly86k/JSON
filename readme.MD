@@ -14,8 +14,8 @@ JSON
  10. Отредактировать содержание файла “new.json” - написать информацию о себе 
  (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
  Всё написать в формате JSON.  
- >**$ vim new.json**
- >**i (insert) Enter
+ >**$ vim new.json**  
+ >**i (insert) Enter**
   >>**{**  
   >>**"Last name": Fil,**  
   >>**"First name": Igor,**  
@@ -23,11 +23,35 @@ JSON
   >>**"Pets": One,**  
   >>**"Future salary": 120000,**  
   >>**}**
- 11. Отправить изменения на внешний репозиторий.
+ 11. Отправить изменения на внешний репозиторий.  
+ >**$ git add new.json  
+ >**$ git status  
+ >**$ git commit -m "Edit new.json"  
+ >**$ git push
  12. Создать файл preferences.json
- 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
- 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+ >**$ touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях 
+ (Любимый фильм, любимый сериал, любимая еда, любимое время года, 
+ сторона которую хотели бы посетить) в формате JSON.  
+ >**$ vim preferences.json
+ >**insert  
+ >**{**  
+ >>**"Best movie": Terminator,**  
+ >>**"Serial": МосГаз,**  
+ >>**"Best food": Duck,**  
+ >>**"The best time of the year": Summer,**  
+ >>**"Country which you like to visit": Uruguay,**
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON  
+ >**$touch skills.json**  
+ >**Insert  
+ >>**{**  
+ >>**"All information about the course you can get from the URL": <https://ksendzov.com>,**  
+ >>**}**
  15. Отправить сразу 2 файла на внешний репозиторий.
+ >**$ git add preferences.json skills.json**  
+ >**$ git status** *(Проверяем проиндексированы ли нужные нам файлы)*  
+ >**$ git commit -m "2 new files, preferences.json and skillls.json"**  
+ >**$ git push**
  16. На веб интерфейсе создать файл bug_report.json.
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
