@@ -33,17 +33,18 @@ JSON
  13. В файл preferences.json добавить информацию о своих предпочтениях 
  (Любимый фильм, любимый сериал, любимая еда, любимое время года, 
  сторона которую хотели бы посетить) в формате JSON.  
- >**$ vim preferences.json
- >**insert  
+ >**$ vim preferences.json**
+ >**insert**  
  >**{**  
  >>**"Best movie": Terminator,**  
  >>**"Serial": МосГаз,**  
  >>**"Best food": Duck,**  
  >>**"The best time of the year": Summer,**  
- >>**"Country which you like to visit": Uruguay,**
+ >>**"Country which you like to visit": Uruguay,**  
+ >>**}**
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON  
  >**$touch skills.json**  
- >**Insert  
+ >**Insert**  
  >>**{**  
  >>**"All information about the course you can get from the URL": <https://ksendzov.com>,**  
  >>**}**
