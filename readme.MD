@@ -17,11 +17,11 @@
  >**$ vim new.json**  
  >**i (insert) Enter**
   >>**{**  
-  >>**"Last name": Fil,**  
-  >>**"First name": Igor,**  
-  >>**"Middle name": Vasilievich,**  
-  >>**"Pets": One,**  
-  >>**"Future salary": 120000,**  
+  >>**"Last name": "Fil",**  
+  >>**"First name": "Igor",**  
+  >>**"Middle name": "Vasilievich",**  
+  >>**"Pets": "One",**  
+  >>**"Future salary": "120000",**  
   >>**}**
  11. Отправить изменения на внешний репозиторий.  
  >**$ git add new.json**  
@@ -36,11 +36,11 @@
  >**$ vim preferences.json**
  >**insert**  
  >**{**  
- >>**"Best movie": Terminator,**  
- >>**"Serial": МосГаз,**  
- >>**"Best food": Duck,**  
- >>**"The best time of the year": Summer,**  
- >>**"Country which you like to visit": Uruguay,**  
+ >>**"Best movie": "Terminator",**  
+ >>**"Serial": "МосГаз",**  
+ >>**"Best food": "Duck",**  
+ >>**"The best time of the year": "Summer",**  
+ >>**"Country which you like to visit": "Uruguay",**  
  >>**}**
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON  
  >**$touch skills.json**  
