@@ -1,8 +1,8 @@
 
 { 
-	"Last name": Fil,
-	"First name": Igor,
-	"Middle name": Vasilievich,
-	"Pets": One,
+	"Last name": "Fil",
+	"First name": "Igor",
+	"Middle name": "Vasilievich",
+	"Pets": "One",
 	"Future salary": 120000,
 }
