@@ -1,7 +1,8 @@
 {
-	"Best movie": "Terminator",
-	"Serial": "МосГаз",
-	"Best food": "Duck",
-	"The best time of the year": "Summer",
-	"Country which you like to visit": "Uruguay",
+	"Favorite_movie": "Terminator",
+	"Serial": "MosGaz",
+	"Favorite_food": "Duck",
+	"Favorite_time_of_the_year": "Summer",
+	"Country_which_you_like_to_visit": "Uruguay",
+
 }

@@ -21,7 +21,7 @@
   >>**"First name": "Igor",**  
   >>**"Middle name": "Vasilievich",**  
   >>**"Pets": "One",**  
-  >>**"Future salary": "120000",**  
+  >>**"Future salary": "120000"**  
   >>**}**
  11. Отправить изменения на внешний репозиторий.  
  >**$ git add new.json**  
@@ -35,18 +35,24 @@
  сторона которую хотели бы посетить) в формате JSON.  
  >**$ vim preferences.json**
  >**insert**  
- >**{**  
- >>**"Best movie": "Terminator",**  
- >>**"Serial": "МосГаз",**  
- >>**"Best food": "Duck",**  
- >>**"The best time of the year": "Summer",**  
- >>**"Country which you like to visit": "Uruguay",**  
+ >>**{**  
+ >>**"Favorite_movie": "Terminator",**  
+ >>**"Serial": "MosGaz",**  
+ >>**"Favorite_food": "Duck",**  
+ >>**"Favorite_time_of_the_year": "Summer",**  
+ >>**"Country_which_you_like_to_visit": "Uruguay",**  
  >>**}**
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON  
  >**$touch skills.json**  
  >**Insert**  
  >>**{**  
- >>**"All information about the course you can get from the URL": <https://ksendzov.com>,**  
+ >>**"Base_theory": "1. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.",**  
+ >>**"Client-Server": "2. Что такое клиент-серверная архитектура.",**  
+ >>**"HTTP_methods": "3. HTTP Методы запросов на сервер.",**  
+ >>**"Codes":"4. Коды ответов HTTP сервера.",**  
+ >>**"Structures": "5. Структуры HTTP запросов и ответов.",**  
+ >>**"JSON" : "6. Что такое JSON, XML. Их структура.",**  
+ >>**"Other_skills" : "и другие навыки"**  
  >>**}**
  15. Отправить сразу 2 файла на внешний репозиторий.
  >**$ git add preferences.json skills.json**  

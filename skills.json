@@ -1,3 +1,9 @@
 {
-	"All information about the course you can get from the URL": "<https://ksendzov.com>",
+	"Base_theory": "1. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.",
+	"Client-Server": "2. Что такое клиент-серверная архитектура.",
+    "HTTP_methods": "3. HTTP Методы запросов на сервер.",
+    "Codes":"4. Коды ответов HTTP сервера.",
+    "Structures": "5. Структуры HTTP запросов и ответов.",
+    "JSON" : "6. Что такое JSON, XML. Их структура.",
+    "Other_skills" : "и другие навыки"
 }
